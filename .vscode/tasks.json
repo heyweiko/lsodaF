@@ -26,7 +26,7 @@
 
                 "lsodatest.f",
                 "-o",
-                "${workspaceRoot}\\lsodatestc.exe"
+                "${workspaceRoot}\\lsodatest.exe"
             ]
         }
     ]

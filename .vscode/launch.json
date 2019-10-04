@@ -6,7 +6,7 @@
             "type": "cppdbg",
             "request": "launch",
             "targetArchitecture": "x86",
-            "program": "${workspaceRoot}\\lsodatestc.exe",
+            "program": "${workspaceRoot}\\lsodatest.exe",
             "miDebuggerPath": "gdb.exe",
             "args": [],
             "stopAtEntry": false,

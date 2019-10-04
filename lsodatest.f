@@ -20,9 +20,9 @@
         T = 0.
         TOUT = .4
         ITOL = 2
-        RTOL = 1.D-4
+        RTOL = 1.D-6
         ATOL(1) = 1.D-6
-        ATOL(2) = 1.D-10
+        ATOL(2) = 1.D-6
         ATOL(3) = 1.D-6
         ITASK = 1
         ISTATE = 1
