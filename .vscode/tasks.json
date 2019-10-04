@@ -1,0 +1,33 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "buildTask",
+            "command": "gfortran.exe",
+            "args": [
+                "-g",
+                "dcopy.f",
+                "dscal.f",
+                "daxpy.f",
+                "ddot.f",
+                "idamax.f",
+                "xerrwd.f",
+                "dnrm2.f",
+                "ixsav.f",
+                "iumach.f",
+                "dgefa.f",
+                "dgbfa.f",
+                "dgesl.f",
+                "vddot.f",
+                "dgbsl.f",
+
+                "opkda1.f",
+                "lsoda.f",
+
+                "lsodatest.f",
+                "-o",
+                "${workspaceRoot}\\lsodatestc.exe"
+            ]
+        }
+    ]
+}
